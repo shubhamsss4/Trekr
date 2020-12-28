@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D80574122595DFC600CD5DA3 /* TrekrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80574112595DFC600CD5DA3 /* TrekrApp.swift */; };
+		D80574142595DFC600CD5DA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80574132595DFC600CD5DA3 /* ContentView.swift */; };
+		D80574162595DFC700CD5DA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D80574152595DFC700CD5DA3 /* Assets.xcassets */; };
+		D80574192595DFC700CD5DA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D80574182595DFC700CD5DA3 /* Preview Assets.xcassets */; };
+		D80574232595F72900CD5DA3 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = D80574212595F72800CD5DA3 /* locations.json */; };
+		D80574242595F72900CD5DA3 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = D80574222595F72800CD5DA3 /* tips.json */; };
+		D80574272597146500CD5DA3 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80574262597146500CD5DA3 /* Location.swift */; };
+		D805742A25971D5F00CD5DA3 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D805742925971D5F00CD5DA3 /* Locations.swift */; };
+		D8B565192599CC9B00CC3D4E /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B565182599CC9B00CC3D4E /* WorldView.swift */; };
+		D8B5651D259A158D00CC3D4E /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B5651C259A158D00CC3D4E /* Tip.swift */; };
+		D8B56520259A17FC00CC3D4E /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B5651F259A17FC00CC3D4E /* TipsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D805740E2595DFC600CD5DA3 /* Trekr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trekr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80574112595DFC600CD5DA3 /* TrekrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrekrApp.swift; sourceTree = "<group>"; };
+		D80574132595DFC600CD5DA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D80574152595DFC700CD5DA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D80574182595DFC700CD5DA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D805741A2595DFC700CD5DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D80574212595F72800CD5DA3 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		D80574222595F72800CD5DA3 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
+		D80574262597146500CD5DA3 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		D805742925971D5F00CD5DA3 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		D8B565182599CC9B00CC3D4E /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
+		D8B5651C259A158D00CC3D4E /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		D8B5651F259A17FC00CC3D4E /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D805740B2595DFC500CD5DA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D80574052595DFC500CD5DA3 = {
+			isa = PBXGroup;
+			children = (
+				D80574102595DFC600CD5DA3 /* Trekr */,
+				D805740F2595DFC600CD5DA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D805740F2595DFC600CD5DA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D805740E2595DFC600CD5DA3 /* Trekr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D80574102595DFC600CD5DA3 /* Trekr */ = {
+			isa = PBXGroup;
+			children = (
+				D80574112595DFC600CD5DA3 /* TrekrApp.swift */,
+				D8B565182599CC9B00CC3D4E /* WorldView.swift */,
+				D80574132595DFC600CD5DA3 /* ContentView.swift */,
+				D805742925971D5F00CD5DA3 /* Locations.swift */,
+				D80574262597146500CD5DA3 /* Location.swift */,
+				D80574152595DFC700CD5DA3 /* Assets.xcassets */,
+				D805741A2595DFC700CD5DA3 /* Info.plist */,
+				D80574212595F72800CD5DA3 /* locations.json */,
+				D80574222595F72800CD5DA3 /* tips.json */,
+				D8B5651C259A158D00CC3D4E /* Tip.swift */,
+				D8B5651F259A17FC00CC3D4E /* TipsView.swift */,
+				D80574172595DFC700CD5DA3 /* Preview Content */,
+			);
+			path = Trekr;
+			sourceTree = "<group>";
+		};
+		D80574172595DFC700CD5DA3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D80574182595DFC700CD5DA3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D805740D2595DFC500CD5DA3 /* Trekr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D805741D2595DFC700CD5DA3 /* Build configuration list for PBXNativeTarget "Trekr" */;
+			buildPhases = (
+				D805740A2595DFC500CD5DA3 /* Sources */,
+				D805740B2595DFC500CD5DA3 /* Frameworks */,
+				D805740C2595DFC500CD5DA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trekr;
+			productName = Trekr;
+			productReference = D805740E2595DFC600CD5DA3 /* Trekr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D80574062595DFC500CD5DA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					D805740D2595DFC500CD5DA3 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = D80574092595DFC500CD5DA3 /* Build configuration list for PBXProject "Trekr" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D80574052595DFC500CD5DA3;
+			productRefGroup = D805740F2595DFC600CD5DA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D805740D2595DFC500CD5DA3 /* Trekr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D805740C2595DFC500CD5DA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80574192595DFC700CD5DA3 /* Preview Assets.xcassets in Resources */,
+				D80574242595F72900CD5DA3 /* tips.json in Resources */,
+				D80574232595F72900CD5DA3 /* locations.json in Resources */,
+				D80574162595DFC700CD5DA3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D805740A2595DFC500CD5DA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80574142595DFC600CD5DA3 /* ContentView.swift in Sources */,
+				D80574272597146500CD5DA3 /* Location.swift in Sources */,
+				D8B565192599CC9B00CC3D4E /* WorldView.swift in Sources */,
+				D8B5651D259A158D00CC3D4E /* Tip.swift in Sources */,
+				D8B56520259A17FC00CC3D4E /* TipsView.swift in Sources */,
+				D805742A25971D5F00CD5DA3 /* Locations.swift in Sources */,
+				D80574122595DFC600CD5DA3 /* TrekrApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D805741B2595DFC700CD5DA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D805741C2595DFC700CD5DA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D805741E2595DFC700CD5DA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Trekr/Preview Content\"";
+				DEVELOPMENT_TEAM = 9ZHBD5L2M8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Trekr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shubham.Trekr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D805741F2595DFC700CD5DA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Trekr/Preview Content\"";
+				DEVELOPMENT_TEAM = 9ZHBD5L2M8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Trekr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shubham.Trekr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D80574092595DFC500CD5DA3 /* Build configuration list for PBXProject "Trekr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D805741B2595DFC700CD5DA3 /* Debug */,
+				D805741C2595DFC700CD5DA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D805741D2595DFC700CD5DA3 /* Build configuration list for PBXNativeTarget "Trekr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D805741E2595DFC700CD5DA3 /* Debug */,
+				D805741F2595DFC700CD5DA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D80574062595DFC500CD5DA3 /* Project object */;
+}
